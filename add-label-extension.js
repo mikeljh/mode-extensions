@@ -57,12 +57,3 @@ const addDataLabel = function (chartId, chartConfig) {
     }
   });
 };
-
-addDataLabel('chart_1e7b202d0368', {
-  decimals: 2,
-  divide: 1000,
-  multiply: 1,
-  prefix: '€',
-  postfix: 'k',
-  seriesIndex: 0,
-});
